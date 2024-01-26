@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--  Animate On Scroll Library CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- !first section -->
+    <!-- ?section navigation and banner -->
+    <section
+      class="nav-and-banner bg-[#222831] w-full flex items-center flex-col flex-wrap relative pb-[200px]"
+    >
+      <div class="top-r absolute right-0">
+        <img src="img/top-r.png" alt="" />
+      </div>
+      <div class="bottom-L absolute bottom-0 left-0">
+        <img src="img/bottom-l.png" alt="" />
+      </div>
+
+      <!-- bg-img -->
+      <div class="container mt-8">
+        <nav class="flex justify-between items-center uppercase flex-wrap">
+          <div class="logo ml-4">
+            <img src="img/LOGO.png" alt="" />
+          </div>
+
+          <div class="menu flex flex-wrap my-2">
+            <div class="text-[#00D0B0] m-[21px]">
+              <a class="z-40" href="#">home</a>
+            </div>
+            <div class="text-white hover:text-[#00D0B0] m-[21px]">
+              <a class="z-40" href="#">services</a>
+            </div>
+            <div class="text-white hover:text-[#00D0B0] m-[21px]">
+              <a class="z-40" href="#">about</a>
+            </div>
+            <div class="text-white hover:text-[#00D0B0] m-[21px]">
+              <a href="#">contact us</a>
+            </div>
+          </div>
+
+          <button
+            class="uppercase bg-white px-[35px] py-[15px] font-bold cursor-pointer z-10 ml-4"
+            type="button"
+          >
+            get started
+          </button>
+        </nav>
+        <!-- !FIN DE LA NAVIGATION -->
+
+        <div class="bannerText my-[80px] ml-3">
+          <div
+            class="relative flex justify-center items-center top-10 flex-wrap"
+          >
+            <div class="my-4" data-aos="zoom-in">
+              <h1 class="text-[45px] max-md:text-[40px] font-bold mr-[100px]">
+                We are <span class="text-[#00D0B0]">always</span> there <br />
+                for all your needs
+              </h1>
+            </div>
+            <div class="right-text my-4" data-aos="zoom-in">
+              <p class="text-[16px] text-[#BDBEC1]">
+                We are a remote design agency based in Montreal, working with
+                <br />
+                clients around the world. As passionate designers, we love
+                <br />
+                building products that are easy to use, accessible, engaging,
+                <br />
+                and delightful.
+              </p>
+
+              <a href="#" class="my-[40px]">
+                <p
+                  class="underline text-[#00D0B0] tracking-tight link-baner flex items-center"
+                >
+                  / contact us
+                  <img
+                    src="img/direction.png"
+                    alt=""
+                    class="bg-red-600sss ml-5 relative top-[3px]"
+                  />
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!--! FIN BANER TEXT -->
+      </div>
+      <div
+        data-aos="fade-up"
+        class="img-barner absolute bottom-[-125px] max-w-[100%] px-2 w-[800px] bg-no-repeat bg-left-top flex justify-center"
+      >
+        <img width="100%" src="img/top-baner.png" alt="" />
+      </div>
+
+      <!-- !IMG ABSOLUTE -->
+    </section>
+    <section class="services mt-[160px] flex justify-center">
+      <div class="container">
+        <div
+          data-aos="zoom-in"
+          class="box flex flex-wrap items-center justify-between mx-4"
+        >
+          <div class="tille text-teal-500 w-full mt-[100px] mb-[19px]">
+            SERVICES
+          </div>
+          <div
+            class="leftr-text-service font-bold text-[32px] font-['Josefin Sans'] w-[40%] max-sm:w-full flex items-center"
+          >
+            Where our services add value to <br />
+            your product
+          </div>
+          <div
+            class="right-services-text text-[#222831] w-[40%] max-sm:w-full flex items-center"
+          >
+            Helping companies & individuals identify key solutions for their
+            target <br />
+            markets. We boost their ability to create products. Our business
+            <br />
+            model saves clients time and money. Don't reinvent the wheel.
+          </div>
+        </div>
+        <!-- !FIN SERVICES TEXT -->
+
+        <!-- card services -->
+        <div
+          class="card-services flex w-full my-[100px] flex-wrap justify-around"
+        >
+          <!-- CARD1 -->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            class="card my-[10px] flex justify-center items-center flex-col"
+          >
+            <div
+              class="img-profils bg-[#222831] w-[69px] h-[69px] flex justify-center items-center rounded-full"
+            >
+              <img src="img/code-icone-card-1-and-3.png" alt="" />
+            </div>
+            <div class="card-title my-[22px] text-[28px] font-bold">
+              Development
+            </div>
+            <div
+              class="card-text max-md:[15px] text-[20px] text-center text-[#0F0B33]"
+            >
+              Create a platform with the best <br />
+              and coolest quality from us.
+            </div>
+          </div>
+          <!-- CARD2 -->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            class="card my-[10px] flex justify-center items-center flex-col"
+          >
+            <div
+              class="img-profils bg-[#222831] w-[69px] h-[69px] flex justify-center items-center rounded-full"
+            >
+              <img src="img/code-icone-card-1-and-3.png" alt="" />
+            </div>
+            <div class="card-title my-[22px] text-[28px] font-bold">
+              UI/UX Designer
+            </div>
+            <div
+              class="card-text max-md:[15px] text-[20px] text-center text-[#0F0B33]"
+            >
+              We provide UI/UX Design services, <br />
+              and of course with the best quality
+            </div>
+          </div>
+          <!-- CARD3 -->
+          <div
+            data-aos="fade-up"
+            data-aos-duration="3000"
+            class="card my-[10px] flex justify-center items-center flex-col"
+          >
+            <div
+              class="img-profils bg-[#222831] w-[69px] h-[69px] flex justify-center items-center rounded-full"
+            >
+              <img src="img/code-icone-card-1-and-3.png" alt="" />
+            </div>
+            <div
+              class="card-title max-md:[15px] my-[22px] text-[28px] font-bold"
+            >
+              Graphik Designer
+            </div>
+            <div class="card-text text-[20px] text-center text-[#0F0B33]">
+              We provide Graphic Design <br />
+              services, with the best designers
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !carousel card -->
+    <section
+      class="carousel-card bg-[#222831] px-[80px] flex-wrap my-[100px] py-[100px]"
+    >
+      <!-- data-aos="fade-up"
+          data-aos-anchor-placement="bottom-bottom" -->
+      <div class="box1 w-full flex justify-between flex-wrap items-center">
+        <div class="">
+          <div class="about text-[16px] font-bold text-[#00D0B0]">About us</div>
+
+          <div class="title text-[24px] font-bold my-[19px]">
+            We build websites based on client needs <br />
+            and of course the target market, because <br />
+            that's our expertise
+          </div>
+          <div class="text text-[#FFFFFF] mt-[19px] mb-[44px]">
+            <p class="mb-[30px] text-[16px]">
+              We create delightful digital experiences that make life simpler
+              <br />
+              and more enjoyable. We create enterprise software that has the
+              <br />
+              polished, snappy feel of the best consumer apps.
+            </p>
+            <p class="text-[16px]">
+              From Slack to Facebook, we team up with marketing <br />
+              departments of large companies and startups to deliver <br />
+              award‑winning websites.
+            </p>
+          </div>
+
+          <button
+            type="button"
+            class="uppercase bg-[#00D0B0] px-[55px] py-[16px] text-white my-4"
+          >
+            hire us
+          </button>
+        </div>
+        <!-- *CARD PLAY* -->
+        <div
+          data-aos="fade-down"
+          class="w-[800px] bg-red-600 h-[800px] videos relative flex justify-center items-center flex-col m-2"
+        >
+          <div class="img w-full">
+            <img width="100%" src="img/play.png" alt="" />
+          </div>
+          <div
+            class="btn w-[70px] h-[70px] max-md:w-[40px] max-md:h-[40px] bg-[#00d0b178] rounded-full flex justify-center items-center absolute cursor-pointer"
+          >
+            <i class="text-white text-[15px] fa-solid fa-play"></i>
+          </div>
+        </div>
+      </div>
+      <!-- SLIDES -->
+      <div class="box2-section">
+        <div class="w-[100%] mt-[80px]">
+          <div class="content flex flex-wrap justify-between items-center">
+            <!-- card 2 -->
+            <div
+              data-aos="zoom-in"
+              class="card p-[20px] flex justify-center items-center border max-w-[100%] mx-[5px] my-[6px]"
+            >
+              <div class="card-content">
+                <div class="img">
+                  <img src="img/card-slid-2.png" alt="" />
+                </div>
+                <div class="text text-white font-bold my-[20px]">
+                  Wireframe Kit
+                </div>
+                <div class="footer flex justify-between items-center">
+                  <p class="text-[#ffffff9a]">Scratch</p>
+                  <img src="img/up.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- card 3 -->
+            <div
+              data-aos="zoom-in"
+              class="card p-[20px] flex justify-center items-center border max-w-[100%] mx-[5px] my-[6px]"
+            >
+              <div class="card-content">
+                <div class="img">
+                  <img src="img/card-slid-2.png" alt="" />
+                </div>
+                <div class="text text-white font-bold my-[20px]">
+                  Wireframe Kit
+                </div>
+                <div class="footer flex justify-between items-center">
+                  <p class="text-[#ffffff9a]">Scratch</p>
+                  <img src="img/up.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- card 4 -->
+            <div
+              data-aos="zoom-in"
+              class="card p-[20px] flex justify-center items-center border max-w-[100%] mx-[5px] my-[6px]"
+            >
+              <div class="card-content">
+                <div class="img">
+                  <img src="img/card-slid-2.png" alt="" />
+                </div>
+                <div class="text text-white font-bold my-[20px]">
+                  Wireframe Kit
+                </div>
+                <div class="footer flex justify-between items-center">
+                  <p class="text-[#ffffff9a]">Scratch</p>
+                  <img src="img/up.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- card 5 -->
+            <div
+              data-aos="zoom-in"
+              class="card p-[20px] flex justify-center items-center border max-w-[100%] mx-[5px] my-[6px]"
+            >
+              <div class="card-content">
+                <div class="img">
+                  <img src="img/card-slid-2.png" alt="" />
+                </div>
+                <div class="text text-white font-bold my-[20px]">
+                  Wireframe Kit
+                </div>
+                <div class="footer flex justify-between items-center">
+                  <p class="text-[#ffffff9a]">Scratch</p>
+                  <img src="img/up.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <!-- card 6 -->
+            <div
+              data-aos="zoom-in"
+              class="card p-[20px] flex justify-center items-center border max-w-[100%] mx-[5px] my-[6px]"
+            >
+              <div class="card-content">
+                <div class="img">
+                  <img src="img/card-slid-2.png" alt="" />
+                </div>
+                <div class="text text-white font-bold my-[20px]">
+                  Wireframe Kit
+                </div>
+                <div class="footer flex justify-between items-center">
+                  <p class="text-[#ffffff9a]">Scratch</p>
+                  <img src="img/up.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teams flex justify-center items-center flex-col">
+      <div class="container flex justify-center items-center flex-col">
+        <!-- <div class="teams-title text-[50px] font-bold max-md:text-[40px]">
+          Our Teams
+        </div> -->
+
+        <div
+          class="teams-text text-[#222831] text-center mt-[30px] mb-[50px] mx-4"
+        >
+          Helping companies & individuals identify key solutions for their
+          target markets.<br />
+          We boost their ability to create products. Our business model saves
+          clients time <br />
+          and money. Don't reinvent the wheel.
+        </div>
+
+        <div
+          class="teams-card-profils flex justify-around items-center flex-wrap w-full"
+        >
+          <!-- TEAMS CARD1 -->
+          <div
+            data-aos="zoom-in"
+            class="card-ptofil my-[50px] flex flex-col justify-center items-center"
+          >
+            <div class="img">
+              <img src="img/profil-user-1.png" alt="" />
+            </div>
+            <div class="name font-bold">Jhon Mock</div>
+            <div class="about">Head of Development</div>
+          </div>
+          <!-- TEAMS CARD1 -->
+          <div
+            data-aos="zoom-in"
+            class="card-ptofil my-[50px] flex flex-col justify-center items-center"
+          >
+            <div class="img">
+              <img src="img/profil-user-2.png" alt="" />
+            </div>
+            <div class="name my-2 font-bold">Leonel Know</div>
+            <div class="about">Head of Operations</div>
+          </div>
+          <!-- TEAMS CARD2 -->
+
+          <div
+            data-aos="zoom-in"
+            class="card-ptofil my-[50px] flex flex-col justify-center items-center"
+          >
+            <div class="img">
+              <img src="img/profil-user-3.png" alt="" />
+            </div>
+            <div class="name my-2 font-bold">Lowen</div>
+            <div class="about">Head of Design</div>
+          </div>
+          <!-- TEAMS CARD3 -->
+
+          <div
+            data-aos="zoom-in"
+            class="card-ptofil my-[50px] flex flex-col justify-center items-center"
+          >
+            <div class="img">
+              <img src="img/profil-user-4.png" alt="" />
+            </div>
+            <div class="name my-2 font-bold">Hans</div>
+            <div class="about">Senior Game Director</div>
+          </div>
+          <!-- TEAMS CARD4 -->
+
+          <div
+            data-aos="zoom-in"
+            class="card-ptofil my-[50px] flex flex-col justify-center items-center"
+          >
+            <div class="img">
+              <img src="img/profil-user-5.png" alt="" />
+            </div>
+            <div class="name my-2 font-bold">Josh</div>
+            <div class="about">Quality Assurance</div>
+          </div>
+          <!-- TEAMS CARD5 -->
+        </div>
+      </div>
+    </section>
+    <section class="contactUs flex justify-center">
+      <div class="container bg-[#222831] flex justify-around flex-wrap">
+        <div data-aos="zoom-in" class="left my-[86px] mx-4">
+          <div class="about-page text-[#00D0B0] text-[12px] capitalize">
+            /contact us
+          </div>
+          <div
+            class="text text-[45px] max-md:text-[38px] my-[50px] font-bold text-white"
+          >
+            Have you decided to work<br />
+            on a project with us?
+          </div>
+          <div class="lips cursor-pointer">
+            <img src="img/elips.png" alt="" />
+          </div>
+        </div>
+
+        <div
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+          class="right mt-[190px]"
+        >
+          <img src="img/sat.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="footer flex justify-center">
+      <div
+        class="container flex justify-between items-center my-[50px] flex-wrap"
+      >
+        <div class="logo ml-4 my-4">
+          <img src="img/LOGO2.png" alt="" />
+        </div>
+
+        <div class="left-iconne my-4 flex justify-around">
+          <div class="icon text-[#222831] mr-[30px] ml-3">
+            <i class="fa-solid mr-[16px] fa-envelope"></i>
+            <span>hi@myport.com</span>
+          </div>
+          <div class="icon text-[#222831] ml-3">
+            <i class="fa-solid mr-[16px] fa-phone"></i>
+            <span>432 - 221 - 8763</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--!  Animate On Scroll Library JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
